@@ -2,7 +2,7 @@
     --primary:#ddd;
     --dark:#333;
     --light:#fff;
-    --shodow: 0 1px 5px rgba(104,104,104,0.8);
+    --shadow: 0 1px 5px rgba(104,104,104,0.8);
 }
 
 html{
@@ -50,7 +50,7 @@ img{
     color: var(--dark);
     text-transform: uppercase;
     font-size: 1.1rem;
-    box-shadow: var(--shodow);
+    box-shadow: var(--shadow);
 
 }
 .main-nav a:hover{
@@ -96,7 +96,7 @@ img{
     display: grid;
     align-items: center;
     justify-items: center;
-    box-shadow: var(--shodow) ;
+    box-shadow: var(--shadow) ;
     padding:1.5rem;
 
 }
@@ -145,7 +145,7 @@ img{
 }
 .portfolio img{
     width: 100%;
-    box-shadow: var(--shodow)
+    box-shadow: var(--shadow)
 }
 footer{
     margin-top: 2rems;
